@@ -1,0 +1,51 @@
+{
+  "user": {
+    "name": "Amaador",
+    "givenNames": "Soufiane",
+    "dateOfBirth": "1999-02-04",
+    "personalIdentificationNumber": "012345678",
+    "identificationOfTheInstitution": "3311 - Zilveren Kruis",
+    "identificationNumberOfTheCard": "01234567890123456789",
+    "expiryDate": "2024-12-12",
+    "insurer": {
+      "identificationNumber": "3311",
+      "organisationName": "Zilveren Kruis",
+      "polisNumber": "12345678",
+      "insurance": {
+        "startDate": "2023-01-01",
+        "endDate": "2024-01-31",
+        "insuranceType": "Basic Insured"
+      },
+      "address": {
+        "street": "Postbus",
+        "houseNumber": "34000",
+        "postcode": "7500 KC",
+        "residence": "Enschede",
+        "country": "Netherlands"
+      },
+      "telephone": {
+        "phoneNumber": "+31505233333",
+        "numberType": "Business"
+      }
+    },
+    "bankDetails": {
+      "bankName": "ING",
+      "bankCode": "INGBNL2A",
+      "accountNumber": "NL85INGB0001234567"
+    },
+    "address": {
+      "street": "1e Jacob van Campenstr",
+      "houseNumber": "15",
+      "postcode": "1012 NX ",
+      "residence": "Hoogmade",
+      "municipality": "Kaag en Braassem",
+      "country": "Netherlands",
+      "addressType": "Residential/residence address"
+    },
+    "telephone": {
+      "phoneNumber": "+311725233111 ",
+      "numberType": "Private"
+    }
+  },
+  "did": "ebsi:did:123456test"
+}

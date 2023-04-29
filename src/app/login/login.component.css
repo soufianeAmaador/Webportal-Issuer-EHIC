@@ -1,0 +1,24 @@
+body, html{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.insurance-logo{
+  height: 80px;
+  width: 80px;
+}
+.insurance-name {
+  color: cornflowerblue;
+}
+
+.bg {
+  /* The image used */
+  background-image: url('src/assets/Background_temp.png');
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
