@@ -1,27 +1,33 @@
-# EBSIFrontendEHICIssuer
+<div align="center">
+ <h1>Frontend Issuer EHIC</h1>
+ <span><b> Work in progress </b></span></a>
+ <span><b> Docker implementation need to be added </b></span></a>
+ <p>Frontend for the EHIC project: a webportal for an insurance company to issue custom European Health Insurance Card(EHIC) in the form of a verifiable credential to it's clients<p>
+</div>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.2.
+# Running the app locally
 
-## Development server
+Open the terminal in the Angular application and run the following command:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+`ng serve`
 
-## Code scaffolding
+The webportal will be available at `http://localhost:4200/`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# getting started
 
-## Build
+Once the webportal is active you will be presented with a welcome page.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+![image](https://github.com/soufianeAmaador/Webportal-Issuer-EHIC/assets/70653226/8e88df5a-d4d2-4894-9649-67244fe3eeb5)
 
-## Running unit tests
+After logging in, a token is created in the backend and stored in the browser for each request.
+The next page shown is the profile page where all the credentials are shown with the ability to change some attributes and a button that allows you to generate a <b>European Health Insurance Card</b> in the form of a <b>Verifiable Credential</b>.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![image](https://github.com/soufianeAmaador/Webportal-Issuer-EHIC/assets/70653226/8b4c8cda-f53e-47d4-9403-88cac27b4881)
 
-## Running end-to-end tests
+After pressing the button, an issue request is started that triggers a series of events in the backend.
+![image](https://github.com/soufianeAmaador/Webportal-Issuer-EHIC/assets/70653226/584cc55d-49c4-4ade-8919-3a8f31605219)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Similar to websites with federated login pages, the web portal navigates to the user's web wallet where the request is made.
+After accepting the request, an OpenID-based OIDC4SSI/SIOP information exchange protocol starts.
+![image](https://github.com/soufianeAmaador/Webportal-Issuer-EHIC/assets/70653226/744dbb48-554d-466e-af4f-760ef77d4636)
+The rest of the process takes place in the user's web wallet.
