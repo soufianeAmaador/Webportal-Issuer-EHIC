@@ -1,6 +1,6 @@
 <div align="center">
  <h1>Frontend Issuer EHIC</h1>
- <span><b> Work in progress </b></span></a>
+ <span><b> Work in progress:  </b></span></a>
  <span><b> Docker implementation need to be added </b></span></a>
  <p>Frontend for the EHIC project: a webportal for an insurance company to issue custom European Health Insurance Card(EHIC) in the form of a verifiable credential to it's clients<p>
 </div>
