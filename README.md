@@ -30,4 +30,4 @@ After pressing the button, an issue request is started that triggers a series of
 Similar to websites with federated login pages, the web portal navigates to the user's web wallet where the request is made.
 After accepting the request, an OpenID-based OIDC4SSI/SIOP information exchange protocol starts.
 ![image](https://github.com/soufianeAmaador/Webportal-Issuer-EHIC/assets/70653226/744dbb48-554d-466e-af4f-760ef77d4636)
-The rest of the process takes place in the user's web wallet.
+The rest of the process takes place in the [user's web wallet](https://github.com/soufianeAmaador/Webwallet-holder-EHIC).
